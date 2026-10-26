@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BookStore
 {
-    internal class libraryDbContext : DbContext
+    internal class bookStoreDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BookStore.Migrations
 {
-    [DbContext(typeof(libraryDbContext))]
+    [DbContext(typeof(bookStoreDbContext))]
     [Migration("20261026091416_BookStore")]
     partial class BookStore
     {
