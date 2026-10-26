@@ -13,11 +13,13 @@ namespace EFCOREExercise
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Mahmoudgamal\\SQLEXPRESS;Database=LibraryDb;Trusted_Connection=True;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Server=Mahmoudgamal\\SQLEXPRESS;Database=BOOKSTORE;Trusted_Connection=True;TrustServerCertificate=true;");
             
 
         }
         public DbSet<book> Books { get; set; }
         public DbSet<author> Authors { get; set; }
+
+        public DbSet<category> Categories { get; set; }
     }
 }
