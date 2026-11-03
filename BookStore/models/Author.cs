@@ -18,5 +18,7 @@ namespace BookStore.models
 
         public DateTime DateOfBirth { get; set; }
 
+        public ICollection<Book> Books { get; set; } = new HashSet<Book>();
+
     }
 }

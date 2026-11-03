@@ -19,6 +19,10 @@ namespace BookStore.models
         public int PublishedYear { get; set; }
 
         public bool IsInStock { get; set; }
+        
+        public Category ?Category { get; set; } = null;
+
+        public Author Author { get; set; } = null!;
 
     }
 }
