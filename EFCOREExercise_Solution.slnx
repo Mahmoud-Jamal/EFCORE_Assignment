@@ -3,4 +3,5 @@
   <Project Path="EFCOREExercise/EFCOREExercise.csproj" />
   <Project Path="EventHub/EventHub.csproj" Id="b4b9bdcf-9b28-4c70-817f-e993e5935f9b" />
   <Project Path="OnlineLearningPlatform/OnlineLearningPlatform.csproj" />
+  <Project Path="NationalBankManagementSystem/NationalBankManagementSystem.csproj" />
 </Solution>
