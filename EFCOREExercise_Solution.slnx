@@ -2,4 +2,5 @@
   <Project Path="BookStore/BookStore.csproj" Id="7c5e5bfe-b222-4a8e-b290-8a78311a91bd" />
   <Project Path="EFCOREExercise/EFCOREExercise.csproj" />
   <Project Path="EventHub/EventHub.csproj" Id="b4b9bdcf-9b28-4c70-817f-e993e5935f9b" />
+  <Project Path="OnlineLearningPlatform/OnlineLearningPlatform.csproj" />
 </Solution>
